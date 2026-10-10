@@ -5,7 +5,7 @@
 
 **当前版本：[MOKEAIGC-work V017 .md](MOKEAIGC-work%20V017%20.md)**
 
-历史版本：[MOKEAIGC-work V09 .md](MOKEAIGC-work%20V09%20.md)。仓库名称保持不变，当前使用入口为 V017。
+历史版本：[MOKEAIGC-work V09 .md](MOKEAIGC-work%20V09%20.md)。当前仓库名称为 `MOKEAIGC-work-V017`，使用入口为 V017。
 
 ## 三种工作模式
 
@@ -39,7 +39,7 @@
 
 - 📕 小红书 / REDnote：[MOKEAIGC](https://www.xiaohongshu.com/user/profile/599e5be55e87e741c05a6bff)
 - 🎵 抖音 / Douyin：[MokeLMa · 炽×寂×幻](https://v.douyin.com/jlQAEe47xu0/)
-- 💻 GitHub：[MOKEAIGC/MOKEAIGC-work-V09](https://github.com/MOKEAIGC/MOKEAIGC-work-V09)
+- 💻 GitHub：[MOKEAIGC/MOKEAIGC-work-V017](https://github.com/MOKEAIGC/MOKEAIGC-work-V017)
 
 
 </p>
