@@ -1,148 +1,37 @@
-# MOKEAIGC V9 · 电影提示词导演 Skill
-### Cinematic Prompt Director for AI Image Generation
+# MOKEAIGC V017 · 世界观构建导演
+### Cinematic World-Building Director
 
-> 把一句灵感、一种氛围、一个地点、一段场景描述或一张参考图，扩展成 **9 组视觉统一、带有真实生活痕迹与电影叙事感** 的静帧提示词。
-> Turn a single spark — a mood, a place, a scene, or a reference image — into **9 cinematic still prompts** that share one believable world.
+把一句灵感、一种氛围、文化、地点或参考图，扩展为可信的想象世界，并用电影剧照式静帧提示词呈现。
 
-**它拍的是「被镜头发现的瞬间」，而不是摆拍、海报、角色陈列或概念设计图。**
-*It captures the moment a camera happens to find — not a posed shot, a poster, a character sheet, or a concept board.*
+**当前版本：[MOKEAIGC-work V017 .md](MOKEAIGC-work%20V017%20.md)**
 
----
+历史版本：[MOKEAIGC-work V09 .md](MOKEAIGC-work%20V09%20.md)。仓库名称保持不变，当前使用入口为 V017。
 
-## ✦ 一句话定位 / One-line Pitch
+## 三种工作模式
 
-`MOKEAIGC V9` 是一套面向 AI 图像生成的**电影提示词导演 Skill**。它不生产单张图，而是为你规划一整面「电影剧照墙」——九宫格、九种视角、同一个可信世界。
-
-`MOKEAIGC V9` is a **cinematic prompt-directing Skill** for AI image generation. It doesn't make one image; it art-directs a wall of film stills — a 3×3 grid, nine angles, one believable world.
-
----
-
-## ✦ 两种创作模式 / Two Creative Modes
-
-### ① 世界观模式 · World-Building Mode
-从 **九个切面** 逐步揭示一个完整世界：
-
-| # | 切面 / Facet | 关注 / Focus |
+| 模式 | 适用请求 | 交付重点 |
 |---|---|---|
-| 01 | 居民 Residents | 人如何在空间里生活 |
-| 02 | 动物 Animals | 与人共处的生命 |
-| 03 | 建筑 Architecture | 材料、结构与时间痕迹 |
-| 04 | 地景 Landscape | 气候与地貌的尺度 |
-| 05 | 日常 Daily Life | 被忽略的微小仪式 |
-| 06 | 迁徙 Migration |  movement 与边界 |
-| 07 | 文化 Culture | 符号、信仰与聚集 |
-| 08 | 权力 Power | 控制、秩序与张力 |
-| 09 | 肖像 Portrait | 一张脸承载的世界 |
+| A · 世界观模式（默认） | 从灵感构建世界 | 世界概述、世界设定正文、关系与一致性说明，以及静帧提示词 |
+| B · 生物与怪物设计 | 设计物种、怪物、异兽或坐骑 | 生物设定、结构与多视图设计、环境展示 |
+| C · 视觉构图模式 | 探索同一场景的不同拍法 | 改变角度、焦段、景别、调度与构图 |
 
-### ② 视觉构图模式 · Visual Composition Mode
-**锁定同一个核心场景不变**，用九种不同的方式重新拍它：
+## V017 更新重点
 
-- 九种**角度**（俯 / 仰 / 平 / 穿 / 窥 …）
-- 九种**景别**（远 / 全 / 中 / 近 / 特 …）
-- 九种**焦段**（广角畸变 / 标准叙事 / 长焦压缩 …）
-- 九种**调度与构图**（前景遮挡 / 框架嵌套 / 留白 / 对称 …）
+- 默认先完成世界设定，包含规律、环境、社会、文化、历史和势力，并检查关键因果关系。
+- 区分客观事实、居民信念、传闻与刻意保留的未知；提供世界差异表和可编辑的 Mermaid 关系图。
+- 世界观模式默认附九张概览的 Midjourney 中英双语提示词，默认画幅 16:9；按重要设定差异扩展，用户指定数量优先。
+- 用户明确要求“仅设定”时省略视觉展开；补充已有设定时只处理指定范围。
+- 新增生物与怪物设计模式，并区分电影静帧、结构设计图、多视图设定表和色卡的规则。
+- 用户明确指定的数量、构图、风格、相机与范围优先于默认配置。
 
-> 适合同一场景的镜头测试、构图探索与风格连贯的批量剧照生成。
-> *Ideal for shot-testing, compositional exploration, and batch-generating stylistically consistent stills of one scene.*
+## 使用方法
 
----
+1. 打开并复制当前版本文件，将其作为支持技能或自定义指令的 AI 工具的参考内容。
+2. 输入灵感、场景描述或参考图，说明需要世界观、生物设计或同一场景的构图探索。
+3. 按需指定数量、画幅、风格或“仅设定”。
+4. 将输出的静帧提示词用于 Midjourney、Nano Banana Pro、GPT Image 2 等图像工具。
 
-## ✦ 核心功能 / Core Features
-
-- 🎬 **一次恰好生成 9 组** 电影静帧提示词 — 不多不少，直接成墙。
-  *Exactly 9 cinematic still prompts per run — no more, no less, ready to hang as a grid.*
-- 📝 **中英文提示词一一对应**，每条都可直接复制进英文生成器。
-  *Chinese + English prompts paired line-by-line for direct paste into English generators.*
-- 🔭 **每个镜头标注具体焦距**（如 35mm / 85mm / 135mm）。
-  *Specific focal length tagged on every shot.*
-- 🎞️ **独立的摄影与灯光字段**，方便单独微调。
-  *Separate cinematography & lighting fields for isolated tuning.*
-- 🧬 **维持连续性**：人物、建筑、材料、气候、色彩跨图一致。
-  *Continuity of character, architecture, material, climate, and color across all frames.*
-- 🌫️ **自动加入胶片颗粒、光学质感与环境磨损**，拒绝「塑料感」。
-  *Auto-added film grain, optical character, and environmental wear — no plastic look.*
-- 📐 **支持 21:9 / 16:9 / 9:16** 三种画幅。
-  *Three aspect ratios supported.*
-- 🎨 **可叠加统一视觉基调**，如「科幻浪漫极简」。
-  *Stackable unified visual tone, e.g. "sci-fi romantic minimalism".*
-
----
-
-## ✦ 提示词结构 / Prompt Anatomy
-
-每条提示词都明确写出：
-
-```
-[ 主体行为 ]  —— 人在做什么，而非摆什么姿势
-[ 空间层次 ]  —— 前景 / 中景 / 背景的关系
-[ 镜头角度 ]  —— 俯仰与机位
-[ 具体焦距 ]  —— 35 / 50 / 85 / 135 mm …
-[ 光线 ]      —— 光源方向、色温、软硬
-[ 材质 ]      —— 表面、反射、磨损
-[ 环境痕迹 ]  —— 生活与使用留下的证据
-[ 摄影质感 ]  —— 颗粒、镜头、动态模糊
-```
-
-*Every prompt spells out subject action, spatial layers, camera angle, exact focal length, light, material, and environmental traces — so each frame reads as found, not fabricated.*
-
----
-
-## ✦ 适配工具 / Compatible Tools
-
-| 工具 / Tool | 支持情况 / Support |
-|---|---|
-| **Midjourney** | ✅ 完整支持 `--sref` / `--profile` 与多档 `--stylize` |
-| **Nano Banana Pro** | ✅ |
-| **GPT Image 2** | ✅ |
-
----
-
-## ✦ 适合 / 不适合 / Good for / Not for
-
-**适合用于 / Good for**
-- 虚构世界与视觉文化开发
-- 电影、短片、游戏项目前期探索
-- 提案视觉与情绪板（mood board）制作
-- 从参考图反向扩展世界观
-- 同一场景的镜头与构图测试
-- 批量生成风格连贯的 AI 电影剧照
-
-**不适合用于 / Not for**
-- ❌ 单张一次性图片提示词
-- ❌ 角色设定表或标准立绘
-- ❌ 视频运镜与连续动作提示词
-- ❌ 已锁定剧情的视频分镜生成
-
----
-
-## ✦ 样图 / Gallery
-
-> 九宫格样图施工中。这里将放置世界观模式与视觉构图模式的对照示例。
-> *9-grid samples in progress — a side-by-side of World-Building and Visual Composition modes will live here.*
-
-```
-┌─────┬─────┬─────┐
-│ 01  │ 02  │ 03  │
-├─────┼─────┼─────┤
-│ 04  │ 05  │ 06  │
-├─────┼─────┼─────┤
-│ 07  │ 08  │ 09  │
-└─────┴─────┴─────┘
-   9 frames · 1 world · 1 film
-```
-
----
-
-## ✦ 使用 / How to Use
-
-1. 在对话中调用 `MOKEAIGC V9`（作为 Skill）。
-2. 输入以下任一种：
-   - 一句灵感 / 一种氛围
-   - 一个地点 / 一段场景描述
-   - 一张参考图
-3. 选择模式：**世界观模式** 或 **视觉构图模式**。
-4. 指定画幅（21:9 / 16:9 / 9:16）与可选视觉基调。
-5. 获得 9 组中英对照提示词 → 复制到 Midjourney / Nano Banana Pro / GPT Image 2。
+此技能交付世界设定和静帧图像提示词；具体规则以 V017 文件为准。
 
 ---
 
