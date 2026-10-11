@@ -1,3 +1,5 @@
+![作品集 · Selected Works](portfolio-grid-9.jpg)
+
 # MOKEAIGC V017 · 世界观构建导演
 
 **从一句灵感出发，构建一个可信的想象世界，再用电影剧照式提示词让它被看见。**
