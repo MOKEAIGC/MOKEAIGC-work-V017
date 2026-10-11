@@ -12,6 +12,9 @@
 
 ## 选择你的创作入口
 
+![三种创作入口 · Three ways to create](creation-modes-keynote-bilingual.png)
+
+
 | 你想做什么 | 使用模式 | 主要交付 |
 | --- | --- | --- |
 | 把灵感或参考图扩展为一个世界 | **A · 世界观构建**（默认） | 世界概述、设定正文、差异表、Mermaid 关系图、视觉规范与中英双语静帧提示词 |
@@ -30,6 +33,9 @@
 无需先填写一整套世界观问卷。你可以直接从下面的示例开始。
 
 ### A · 从灵感构建世界
+
+![从设定到画面 · From lore to imagery](worldbuilding-workflow-keynote-bilingual.png)
+
 
 ```text
 请按 MOKEAIGC V017 的世界观模式，构建一个雨永不停歇的世界。
